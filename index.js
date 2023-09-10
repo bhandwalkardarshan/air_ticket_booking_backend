@@ -15,7 +15,7 @@ app.use("/api",userRoutes)
 // flight routes
 app.use("/api/flights",flightRoutes)
 
-// flight routes
+// booking routes
 app.use("/api",bookingRoutes)
 
 app.listen(PORT, async() => {
